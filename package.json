@@ -2,6 +2,6 @@
   "name": "sandbox-code-scan",
   "version": "1.0.0",
   "dependencies": {
-    "nth-check": "1.0.2"
+    "nth-check": "^3.0.1"
   }
 }
