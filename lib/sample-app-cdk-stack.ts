@@ -78,7 +78,7 @@ export class SampleAppCdkStack extends Stack {
     // Intentionally insecure S3 bucket for security testing
     const insecureBucket = new s3.Bucket(this, "InsecureBucket", {
       bucketName: undefined, // Let CloudFormation auto-generate the name
-      publicReadAccess: false, // Intentionally insecure - allows public read access
+      publicReadAccess: true, // Intentionally insecure - allows public read access
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ACLS, // Allow public access but block ACLs
       removalPolicy: undefined, // Use default removal policy
       versioned: false,
