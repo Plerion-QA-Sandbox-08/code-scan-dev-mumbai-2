@@ -1,29 +1,7 @@
 {
-  "name": "sample-app-cdk",
-  "version": "0.1.0",
-  "private": true,
-  "engines": {
-    "node": ">=22 <23"
-  },
-  "scripts": {
-    "build": "tsc -p .",
-    "cdk": "cdk",
-    "synth": "cdk synth",
-    "deploy": "cdk deploy --require-approval never",
-    "destroy": "cdk destroy --force"
-  },
+  "name": "sandbox-code-scan",
+  "version": "1.0.0",
   "dependencies": {
-    "aws-cdk-lib": "2.213.0",
-    "axios": "1.2.0",
-    "constructs": "^10.0.0",
-    "lodash": "3.10.1"
-  },
-  "devDependencies": {
-    "@types/lodash": "^4.17.20",
-    "@types/node": "^20.14.11",
-    "aws-cdk": "^2.1027.0",
-    "esbuild": "^0.21.5",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
+    "nth-check": "1.0.2"
   }
 }
